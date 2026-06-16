@@ -21,13 +21,14 @@ It works in the Google Apps Script platform and Google Sheets. It is triggered w
 
 ## Setup
 
-1) First you have to open a new script in Google Apps Script.
-2) Import main.gs file to the Google Apps Script.
-3) Deploy the script
-4) Copy the link given in the deploy page.
-5) Paste it to the ```makeqr.py``` file.
-6) Enter ```pip install qrcode pillow```
-7) Run the ```makeqr.py``` with ```python3 makeqr.py```
+1) Open the google sheets and go Extentions > Apps Script File
+2) Then you have to open a new script in Google Apps Script.
+3) Import main.gs file to the Google Apps Script.
+4) Deploy the script
+5) Copy the link given in the deploy page.
+6) Paste it to the ```makeqr.py``` file.
+7) Enter ```pip install qrcode pillow```
+8) Run the ```makeqr.py``` with ```python3 makeqr.py```
 
 Thats it ! You have working shift tracker and QR Code for it.
 
@@ -39,5 +40,5 @@ For XSS code injection tried to prevent it but not sure how effective it is.
 
 ## Images 
 
-![Clock In](/images/clock-in.jpeg)
-![Clock Out](/images/clock-out.jpeg)
+![<img src="/images/clock-in.jpeg" width="250" height="450" /](/images/clock-in.jpeg)
+![<img src="/images/clock-out.jpeg" height="450" /](/images/clock-out.jpeg)
